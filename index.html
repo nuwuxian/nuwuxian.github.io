@@ -9,6 +9,7 @@
   <style>
   #me { border : 0 solid black; border-radius : 10px; }
   del {text-decoration: line-through;}
+  .category-title { margin-top: 20px; margin-bottom: 10px; color: #8B3A3A; border-bottom: 1px solid #eee; padding-bottom: 5px;}
   </style>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script> 
 </head>
@@ -43,6 +44,9 @@
         <h5><strong>Selected Publications</strong></h5>
         <table width="100%" align="center" border="0" cellspacing="5" cellpadding="20">
 
+            <!-- Category: LLM Post-training -->
+            <h6 class="category-title"><strong>LLM Post-training</strong></h6>
+            
             <papertitle><b>Building Coding Agents via Entropy-Enhanced Multi-Turn Preference Optimization</b></papertitle>
             <br><font size="2.5">Jiahao Yu, Zelei Cheng, <u>Xian Wu†</u>, Xinyu Xing <em>(† indicates corresponding author)</em></font>
             <br><font size="2.5" color="red"><strong>(Featured in <a href="https://mp.weixin.qq.com/s/4wmqwyMJyfIfpZV8YvN70A" style="color:red">MIT Technology Review China</a>)</strong></font>
@@ -53,109 +57,99 @@
              <br><font size="2.5"><em>The 43st International Conference on Machine Learning <strong>(ICML)</strong>, Seoul, July 2026</em></font>
             <br><br>
 
-            <!-- NeurIPS 2025 -->
             <papertitle><b>GPO: Learning from Critical Steps to Improve LLM Reasoning</b></papertitle>
             <br><font size="2.5">Jiahao Yu, Zelei Cheng, <u>Xian Wu†</u>, Xinyu Xing <em>(† indicates corresponding author)</em></font>
             <br><font size="2.5"><em>The 38th Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025</em></font>
             <br><br>
 
-            <!-- NeurIPS 2025 -->
-            <papertitle><b>BlockScan: Detecting Anomalies in Blockchain Transactions</b></papertitle>
-            <br><font size="2.5"><u>Xian Wu*</u>, Jiahao Yu*, Hao Liu, Wenbo Guo, Xinyu Xing <em>(* indicates equal contribution)</em></font>
-            <br><font size="2.5"><em>The 38th Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025</em></font>
-            <br><br>
+            <!-- Category: LLM Security -->
+            <h6 class="category-title"><strong>LLM Security</strong></h6>
 
-            <!-- COLM 2025 -->
             <papertitle><b>ReLeak: RL-based Red-teaming for LLM Privacy Leakage</b></papertitle>
             <br><font size="2.5">Yuzhou Nie, Zhun Wang, Ye Yu, <u>Xian Wu</u>, Xuandong Zhao, Nathaniel D. Bastian, Wenbo Guo, Dawn Song</font>
             <br><font size="2.5"><em>Second Conference on Language Modeling <strong>(COLM)</strong>, 2025</em></font>
             <br><br>
 
-            <!-- NeurIPS 2024 -->
             <papertitle><b>Soft-Label Integration for Robust Toxicity Classification</b></papertitle>
             <br><font size="2.5">Zelei Cheng, <u>Xian Wu</u>, Jiahao Yu, Xin-Qiang Cai, Shuo Han, Xinyu Xing</font>
             <br><font size="2.5"><em>The 37th Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, Vancouver, December 2024</em></font>
             <br><br>
 
-            <!-- ICML 2024 -->
+            <!-- Category: LLM/DNN for Security -->
+            <h6 class="category-title"><strong>DNN for Security</strong></h6>
+
+            <papertitle><b>BlockScan: Detecting Anomalies in Blockchain Transactions</b></papertitle>
+            <br><font size="2.5"><u>Xian Wu*</u>, Jiahao Yu*, Hao Liu, Wenbo Guo, Xinyu Xing <em>(* indicates equal contribution)</em></font>
+            <br><font size="2.5"><em>The 38th Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025</em></font>
+            <br><br>
+
+            <papertitle><b>From Grim Reality to Practical Solution: Malware Classification in Real-World Noise</b></papertitle>
+            <br><font size="2.5"><u>Xian Wu</u>, Wenbo Guo, Jia Yan, Baris Coskun, Xinyu Xing</font>
+            <br><font size="2.5"><em>The 44th IEEE Symposium on Security and Privacy <strong>(S&P)</strong>, San Francisco, CA, May 2023</em></font>
+            <br><br>
+
+            <!-- Category: DRL Interpretability and Robustness -->
+            <h6 class="category-title"><strong>DRL Interpretability and Robustness</strong></h6>
+
             <papertitle><b>RICE: Breaking Through the Training Bottlenecks of Reinforcement Learning with Explanation</b></papertitle>
             <br><font size="2.5"><u>Xian Wu*</u>, Zelei Cheng*, Jiahao Yu, Sabrina Yang, Gang Wang, Xinyu Xing <br>(* indicates equal contribution)</font>
             <br><font size="2.5"><em>The 41st International Conference on Machine Learning <strong>(ICML)</strong>, Vienna, July 2024</em></font>
             <br><font size="2.5" color="red"><strong>(Spotlight Presentation, top 3.5%; selected for <a href="https://openai.com/index/paperbench/" style="color:red">OpenAI’s PaperBench</a>)</strong></font>
             <br><br>
 
-            <!-- NeurIPS 2023 -->
             <papertitle><b>StateMask: Explainable Deep Reinforcement Learning through State Mask</b></papertitle>
             <br><font size="2.5"><u>Xian Wu*</u>, Zelei Cheng*, Jiahao Yu, Wenbo Guo, Xinyu Xing <br>(* indicates equal contribution)</font>
             <br><font size="2.5"><em>The 36th Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, New Orleans, December 2023</em></font>
             <br><br>
 
-            <!-- USENIX Security 2023 -->
             <papertitle><b>PATROL: Provable Defense against Adversarial Policy in Two-player Games</b></papertitle>
             <br><font size="2.5">Wenbo Guo*, <u>Xian Wu*</u>, Lun Wang, Dawn Song, Xinyu Xing <br>(* indicates equal contribution)</font>
             <br><font size="2.5"><em>The 32nd USENIX Security Symposium <strong>(USENIX Security)</strong>, Anaheim, CA, August 2023</em></font>
             <br><br>
 
-            <!-- IEEE S&P 2023 -->
-            <papertitle><b>From Grim Reality to Practical Solution: Malware Classification in Real-World Noise</b></papertitle>
-            <br><font size="2.5"><u>Xian Wu</u>, Wenbo Guo, Jia Yan, Baris Coskun, Xinyu Xing</font>
-            <br><font size="2.5"><em>The 44th IEEE Symposium on Security and Privacy <strong>(S&P)</strong>, San Francisco, CA, May 2023</em></font>
-            <br><br>
-
-            <!-- NeurIPS 2021 -->
             <papertitle><b>EDGE: Explaining Deep Reinforcement Learning Policies</b></papertitle>
             <br><font size="2.5">Wenbo Guo, <u>Xian Wu</u>, Usmann Khan, Xinyu Xing</font>
             <br><font size="2.5"><em>The 35th Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, Virtual Conference, December 2021</em></font>
             <br><br>
 
-            <!-- IJCAI 2021 -->
             <papertitle><b>BACKDOORL: Backdoor Attack against Competitive Reinforcement Learning</b></papertitle>
             <br><font size="2.5">Lun Wang, Zaynah Javed, <u>Xian Wu</u>, Wenbo Guo, Xinyu Xing, Dawn Song</font>
             <br><font size="2.5"><em>The 30th International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong>, 2021</em></font>
             <br><br>
 
-            <!-- ICML 2021 -->
             <papertitle><b>Adversarial Policy Learning in Two-player Competitive Games</b></papertitle>
             <br><font size="2.5">Wenbo Guo, <u>Xian Wu</u>, Sui Huang, Xinyu Xing</font>
             <br><font size="2.5"><em>Proceedings of The 38th International Conference on Machine Learning <strong>(ICML)</strong>, 2021</em></font>
             <br><br>
 
-            <!-- USENIX Security 2020 -->
             <papertitle><b>Adversarial Policy Training against Deep Reinforcement Learning</b></papertitle>
             <br><font size="2.5"><u>Xian Wu*</u>, Wenbo Guo*, Hua Wei*, Xinyu Xing <br>(* indicates equal contribution)</font>
             <br><font size="2.5"><em>Proceedings of The 30th USENIX Security Symposium <strong>(USENIX Security)</strong>, 2021</em></font>
             <br><br>
 
-            <!-- BlackHat 2020 -->
             <papertitle><b>Ruling StarCraft Game Spitefully -- Exploiting the Blind Spot of AI-Powered Game Bots</b></papertitle>
             <br><font size="2.5">Wenbo Guo, <u>Xian Wu</u>, Xinyu Xing, Jimmy Su</font>
             <br><font size="2.5"><em>Proceedings of The 23rd BlackHat USA <strong>(BlackHat USA)</strong>, 2020</em></font>
             <br><br>
         </table>
 
-        <h5><strong>Professional Servies</strong></h5>
+        <h5><strong>Professional Services</strong></h5>
        <ul>
        <font size=2.5>
        <li><b>Program Committee Member</b>:</li>
        <ul>
-        <li>NeurIPS'24,NeurIPS'25,NeurIPS'26</a></li>
-        <li>ICML 2025,ICML 2026</a></li>
-        <li>ICLR 2025,ICLR 2026</a></li>
-        <li>AISTATS 2025,AISTATS 2026</a></li>
-        <li>AAAI 2025</a></li>
-        <li>KDD 2024</a></li>
-        <li>CCS 2026</a></li>
-        </font>      
+        <li>NeurIPS'24, NeurIPS'25, NeurIPS'26</li>
+        <li>ICML 2025, ICML 2026</li>
+        <li>ICLR 2025, ICLR 2026</li>
+        <li>AISTATS 2025, AISTATS 2026</li>
+        <li>AAAI 2025</li>
+        <li>KDD 2024</li>
+        <li>CCS 2026</li>
+       </ul>
+       </font>      
     </ul>
-</ul>
 
 <br>  
-
-
-
-
-
-
 
  </div></div></div>
 </body></html>
